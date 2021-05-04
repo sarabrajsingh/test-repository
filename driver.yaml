@@ -1,0 +1,7 @@
+---
+- name: test
+  hosts: localhost
+  gather_facts: no
+  roles:
+  - role-01
+  - role-02
